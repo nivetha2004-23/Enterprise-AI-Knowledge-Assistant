@@ -82,12 +82,14 @@ Upload and select PDF documents.
 
 ![PDF Selection](screenshots/pdf-dropdown.png)
 
-### 🤖 AI Chatbot
-Ask questions from uploaded PDFs and receive AI-generated answers.
-
-![Chatbot](screenshots/chatbot-1.png)
-
 ---
+### 🤖 AI Chatbot
+
+Ask questions from uploaded PDFs and receive AI-generated answers powered by Gemini AI.
+
+![Chatbot 1](screenshots/chatbot-1.png)
+
+![Chatbot 2](screenshots/chatbot-2.png)
 
 ## ⚙️ Installation
 
