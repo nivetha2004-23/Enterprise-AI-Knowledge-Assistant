@@ -1,37 +1,111 @@
-# Enterprise AI Knowledge Assistant
+# 🚀 Enterprise AI Knowledge Assistant
 
-## Overview
-Enterprise AI Knowledge Assistant is a Streamlit-based RAG (Retrieval-Augmented Generation) application that allows users to upload one or more PDF documents and ask questions in natural language. The application uses Google Gemini 2.5 Flash, Gemini Embeddings, and FAISS for intelligent document retrieval.
+An AI-powered PDF Question Answering application built using **Google Gemini, LangChain, FAISS, and Streamlit**. The application allows users to upload PDF documents and ask questions based only on the uploaded content using Retrieval-Augmented Generation (RAG).
 
-## Features
-- Admin Login
-- Multiple PDF Upload
-- PDF Selection Dropdown
-- AI-powered Question Answering
-- RAG Architecture
-- Chat History
-- Clear Chat
-- Download Chat
-- Admin Dashboard
-- Logout
+---
 
-## Tech Stack
+## 🌟 Features
+
+- 🔐 Secure Admin Login
+- 📄 Upload Single or Multiple PDF Files
+- 📑 Select PDFs using Dropdown
+- 🤖 AI-powered Question Answering
+- 🧠 RAG (Retrieval-Augmented Generation)
+- 📚 Google Gemini Embeddings
+- ⚡ FAISS Vector Database
+- ☁️ Streamlit Cloud Deployment
+- 🚪 Logout Functionality
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
 - Streamlit
 - Google Gemini 2.5 Flash
-- Gemini Embeddings
 - LangChain
+- LangChain Google GenAI
 - FAISS
 - PyPDF
-- Python Dotenv
+- Retrieval-Augmented Generation (RAG)
 
-## Installation
+---
+
+## 📌 Project Workflow
+
+```
+PDF Upload
+    ↓
+Text Extraction
+    ↓
+Text Chunking
+    ↓
+Gemini Embeddings
+    ↓
+FAISS Vector Store
+    ↓
+User Question
+    ↓
+Relevant Context Retrieval
+    ↓
+Gemini AI Response
+```
+
+---
+
+## 🚀 Live Demo
+
+https://enterprise-ai-knowledge-assistant-afwmvejg2ewq6cxisuwptk.streamlit.app/
+
+---
+
+## 💻 GitHub Repository
+
+https://github.com/nivetha2004-23/Enterprise-AI-Knowledge-Assistant
+
+---
+
+## 📸 Screenshots
+
+Screenshots will be added soon.
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/nivetha2004-23/Enterprise-AI-Knowledge-Assistant.git
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+Create a `.env` file
+
+```text
+GOOGLE_API_KEY=your_api_key_here
+```
+
+Run the application
+
+```bash
 streamlit run app.py
 ```
 
-## Developer
+---
 
-**Developed by Nivetha Govindaraj**
+## 👩‍💻 Developer
+
+**Nivetha**
+
+B.Tech Artificial Intelligence and Data Science
+
+---
+
+⭐ Thank you for visiting this repository.
+
