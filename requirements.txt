@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
-google-genai
+google-generativeai
 pypdf
 langchain
 langchain-community
