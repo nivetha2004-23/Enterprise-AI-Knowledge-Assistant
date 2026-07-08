@@ -67,7 +67,25 @@ https://github.com/nivetha2004-23/Enterprise-AI-Knowledge-Assistant
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+### 🔐 Login Page
+Secure admin login page.
+
+![Login](screenshots/login.png)
+
+### 📊 Dashboard
+Main dashboard after successful login.
+
+![Dashboard](screenshots/dashboard-1.png)
+
+### 📄 PDF Selection
+Upload and select PDF documents.
+
+![PDF Selection](screenshots/pdf-dropdown.png)
+
+### 🤖 AI Chatbot
+Ask questions from uploaded PDFs and receive AI-generated answers.
+
+![Chatbot](screenshots/chatbot-1.png)
 
 ---
 
